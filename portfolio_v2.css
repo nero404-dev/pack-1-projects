@@ -1,0 +1,169 @@
+.intro {
+    width: 100%;
+    background-image: url(pictures/wallpaperbetter\ copy.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* filter: brightness(0.7); */
+}
+
+nav {
+    width: 100%;
+    /* background-color: white; */
+    /* position: sticky;
+    top: 0; */
+    display: flex;
+    /* z-index: 2; */
+}
+
+nav img {
+    float: left;
+    margin-top: 7.5px;
+    border: 2px solid transparent;
+}
+
+nav img:hover {
+    border: 2px solid greenyellow;
+}
+
+nav ul {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    /* position: relative; */
+    text-align: center;
+    justify-content: center;
+}
+
+nav ul a {
+    text-decoration: none;
+    margin: 35px 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+nav ul a li {
+    list-style: none;
+    color: white;
+    font-size: 18px;
+    font-family: var(--f3);
+    padding-bottom: 3px;
+    border-bottom: 2px solid transparent;
+}
+
+nav ul #active {
+    color: greenyellow;
+}
+
+nav ul #active:hover {
+    color: white;
+    border-bottom: 2px solid transparent;
+}
+
+nav ul a li:hover {
+    border-bottom: 2px solid greenyellow;
+}
+
+.in_intro {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.in_intro .content {
+    margin: 10% auto;
+    padding-bottom: 10%;
+}
+
+.in_intro .content .image {
+    width: 15%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.in_intro .content .image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.in_intro .content .image img:hover {
+    border: 2px solid greenyellow;
+}
+
+.in_intro .content .text_content {
+    margin: 30px auto;
+    color: white;
+    width: fit-content;
+}
+
+.in_intro .content .text_content h1 {
+    font-family: var(--f3);
+}
+
+.in_intro .content .text_content h1:hover {
+    color: greenyellow;
+}
+
+.in_intro .content .text_content h3 {
+    color: greenyellow;
+    font-family: var(--f4);
+    margin: 10px 0;
+}
+
+.in_intro .content .text_content h3:hover {
+    color: white;
+}
+
+.pts {
+    width: 100%;
+    margin: 30px auto;
+}
+
+.pts p {
+    text-align: center;
+    font-size: 32px;
+}
+
+@media screen and (max-width: 414px) {
+    .intro {
+        background-image: url(pictures/wallpaperbetter\ vertical.jpg);
+    }
+
+    .in_intro .content .image {
+        width: 30%;
+    }
+    .in_intro .content .text_content h1 {
+        font-size: 24px;
+    }
+    .in_intro .content .text_content h3 {
+        font-size: 18px;
+    }
+    
+    nav {
+        display: block;
+    }
+    nav img {
+        float: none;
+        width: 100%;
+        padding-top: 0;
+        border: none;
+    }
+    nav ul a {
+        margin: 30px 5px;
+    }
+    nav ul a li {
+        font-size: 16px;
+        font-family: var(--f4);
+        padding-bottom: 0px;
+        padding-left: 0px;
+        border-bottom: none;
+        border-left: none;
+    }
+    nav ul a li:hover {
+        display: none;
+    }
+}

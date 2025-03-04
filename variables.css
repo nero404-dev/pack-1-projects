@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+
+    /* colors */
+    --yellow: #ffe600;
+    --light_grey: #cecece;
+    --dark_grey: #222222;
+    --blue_purple: #2e29cd;
+    --pink_red: #ff0055;
+    --dark_cream: #e7dec0;
+    --purple: #7146ff;
+    --navy: #1f263c;
+    --blue: #000087;
+    --dark_red: #761414;
+    --navy_purple: #0e0047;
+    --light_blue: #beceff;
+    --grey_1: #d4d4d4;
+    --grey_2: #a4a4a4;
+    --light_purple: #5e20af;
+    --orange: #ff4e00;
+    --grey_3: #403e3a;
+    --grey_4: #262422;
+
+
+    /* fonts */
+    --f1: times;
+    --f2: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --f3: Arial, Helvetica, sans-serif;
+    --f4: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#hr_between {
+    width: 80%;
+    margin: 50px auto;
+    height: 2px;
+    background-color: var(--yellow);
+}
+
+#hr_between_portfolio {
+    width: 80%;
+    margin: 50px auto;
+    height: 1px;
+    background-color: var(--grey_2);
+}
+
+#hr_in_between {
+    width: 80%;
+    margin: 10px auto;
+    height: 2px;
+    background-color: var(--navy_purple);
+}
+
+#hr_footer {
+    width: 80%;
+    margin: 50px auto;
+    height: 1px;
+    background-color: var(--navy_purple);
+}
+
+#shadow_hr {
+    background-color: grey;
+    height: 3px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.8);
+    width: 100%;
+    margin: 50px auto;
+}
